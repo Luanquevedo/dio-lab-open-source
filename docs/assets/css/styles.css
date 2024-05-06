@@ -58,6 +58,8 @@ a {
 
 a:hover {
     color: var(--secondary-color);
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
 }
 
 ul > li,
@@ -145,6 +147,8 @@ header nav ul{
 
 .menu-social__link:hover {
     color: var(--secondary-color);
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
 }
 
 header nav {
@@ -237,6 +241,7 @@ main, section {
     color: var(--white);
     background-color: #0F0F0F;
     border: #0F0F0F;
+    transition-duration: 0.7s;
 }
 
 #searchInput {
